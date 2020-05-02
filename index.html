@@ -1,121 +1,497 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>勇者村-The Warriors</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-</head>
+  <head>
 
-<body class="wrapper">
-    <header class="header">
-        <div class="navbar">
-            <div class="container">
-                <a href="#" class="brand"></a>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="" class="nav-link">關於我們</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">村落導覽</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">加入我們</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">聯絡方式</a>
-                    </li>
-                </ul>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="introduction" content="個人履歷">
+    <meta name="author" content="林恩頌">
+
+    <title>恩頌の小天地</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+	<link href="css/myresume.css" rel="stylesheet">
+	<link href="css/timeline.css" rel="stylesheet">
+	<link href="css/photo.css" rel="stylesheet">
+  </head>
+
+  <body background="img/5.jpg" style="background-repeat:no-repeat;background-attachment:fixed;background-position:right top;background-color:#E6E6E6;opacity:1;"  onload="scrollTest()">
+
+  <script language="JavaScript">
+y = 0;
+function scrollTest(){
+if (y<700) scroll(1,y++);
+<!--設定捲動點數-->
+timer=setTimeout('scrollTest()',0);
+status = y;
+}
+function scrollstp(){
+clearTimeout(timer);
+}
+
+</script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/a28550159.jpg" title="ㄏㄏ，帥吧~">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#top"><font size="5">TOP</font></a>
+          </li>		
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">林恩頌 about me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">經驗 experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">學歷 education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">技能 skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#works">作品 works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">興趣 interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#dream">夢想 dreams</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<div class="container-fluid p-0">
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="top">
+	<div class="slider_container" style="margin: 25px 120px;">
+	<div>
+		<img src="img/7.jpg" width="100%" height="100%" alt="pure css3 slider" />
+		<span class="info">新莊團契</span>
+	</div>
+	<div>
+		<img src="https://scontent.ftpe7-3.fna.fbcdn.net/v/t31.0-8/18738521_995217400615919_6586056876579587098_o.jpg?_nc_fx=ftpe7-1&_nc_cat=0&oh=646323f7cc35b7de6dc1169f48c38b1d&oe=5B960180" width="100%" height="100%" alt="pure css3 slider" />
+		<span class="info">家人</span>
+	</div>
+	<div>
+		<img src="https://scontent.ftpe7-2.fna.fbcdn.net/v/t31.0-8/12402225_1205778382784816_7400012946536647605_o.jpg?_nc_fx=ftpe7-1&_nc_cat=0&oh=34c64fea40c0a242237e68f6ab84502b&oe=5B91C20F" width="100%" height="100%" alt="pure css3 slider" />
+		<span class="info">教會</span>
+	</div>
+	<div>
+		<img src="https://scontent.ftpe7-1.fna.fbcdn.net/v/t31.0-8/18320918_10209246576781150_599951866323552835_o.jpg?_nc_fx=ftpe7-1&_nc_cat=0&oh=4711e278611b08cd048a2b424d1779a5&oe=5B885B73" width="100%" height="100%" alt="pure css3 slider" />
+		<span class="info">高中</span>
+	</div>
+	<div>
+		<img src="https://scontent.ftpe7-4.fna.fbcdn.net/v/t31.0-8/22904684_1485794131496456_6208616200372098837_o.jpg?_nc_fx=ftpe7-1&_nc_cat=0&oh=67b7b1103248f1fc4d6ac1081e772ca4&oe=5B589DEE" width="100%" height="100%" alt="pure css3 slider" />
+		<span class="info" >大學</span>
+</div>
+        </div>
+      </section>
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+            <p></p>
+          <h1 class="mb-2">林恩頌
+            <span class="text-primary" style="font-size:50px;font-family:fantasy;">Adam Lin</span>
+            <p></p>
+          </h1>
+          <div class="subheading mb-2" style="font-size:40px;">瑪奇,貝婷伺服器,10頻,提爾克那 · 0910-027-558 ·
+            <a href="mailto:a28550159@email.com">a28550159@email.com</a>
+          </div>
+          <p class="mb-2">大家好，我是就讀世新大學資訊傳播系一年級的林恩頌，今年18歲，身高是令人羨慕的180公分。目前沒什麼特別的專長，未來想要做的職業有很多，其中最大的夢想是成為遊戲實況主。患有中二病以及因長期繭居於家中而產生的邊緣症。除了學校附近外，也經常於新莊地帶出沒。</p>
+		  <p>Hello everyone, my name is Adam Lin, who is a freshman in the Department of Information and Communications at Shih Hsin University. I am 18 years old and my height is enviable, I have 180 centimeters. There is no special expertise now. There are many careers want to be done in the future. But the biggest dream is to become a game YouTuber. Suffering from Eighth Grade Syndrome and Edge disease due to long-term stay in the house. In addition to nearby schools, you can often meet me in the area of ​​Xinzhuang.</p>
+          <ul class="list-inline list-social-icons mb-2">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/adamado8841">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCe9ZgVOFl9W6VuaON7ijPDg">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/a28550159/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-2">經驗</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-2">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-2">闇黑魔術使</h3>
+			  <p></p>
+			  <img src="img/1.jpg">
+			  <p></p>
+              <div class="subheading mb-2">斬妖除魔、完成魔法相關委託</div>
+              <p>自出生的那一刻起，成為闇黑魔術使的命運就已註定。寄宿在我右手臂的暗影魂魄，多年來不斷地呼喚著我，雖然我試著壓抑著它的力量，但終究失敗了。它漸漸地侵蝕我的手臂，為了不讓它吞噬掉我的靈魂，我踏上了旅程，尋找能夠控制這強大力量的方法。經過了5年，終於在位於凡德瓦王國境內，艾瑪帕森林的無限之境中，找到了知曉這個詛咒的神祕智者。他用了2年的時間，傳授給我一切他所會的魔法，並且在最後，為我的右手臂施展了封印術，我才能對這強大的力量加以控制。為何那位智者沒有一開始就將封印術傳授給我呢?臨走前他對我說，因為他不想讓我一輩子逃避這個力量，封印術終究還是有失效的一天，但是如果去接受了它，並且學會控制，那這份力量就能為我所用，並且還能夠幫助更多人。所以，為了報答這位智者的恩情，我決定用從它所學來的魔法，幫助更多人，這也是那位智者的心願。因此我成為了到處斬妖除魔、為民除害的闇黑魔術使。</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 1999 - Now</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-2">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-2">遊戲實況主</h3>
+			  <p></p>
+			  <img src="img/2.jpg">
+			  <p></p>
+              <div class="subheading mb-2">拍攝遊戲實況、剪輯、上傳YouTube</div>
+              <p>國中二年級時，加入了Dark moon實況團，與團員們開始一起進行遊戲實況的拍攝。至今已上傳200部影片以上，訂閱數超過100人。</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2012 - Now</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-2">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-2"></h3>
+              <div class="subheading mb-2"></div>
+              <p></p>
+            </div>
+            <div class="resume-date text-md-right">
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-2"></h3>
+              <div class="subheading mb-2"></div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary"></span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-2">學歷</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-2">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-2">世新大學</h3>
+			  <p></p>
+			  <img src="img/4.jpg">
+			  <p></p>
+              <div class="subheading mb-2">資訊傳播學系</div>
+              <div>在學校是系邊，放學回家社，整天沉浸在動漫，無所事事。</div>
+              <p></p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2017 - Now</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-2">新北市立新莊高中</h3>
+			  <img src="img/3.jpg" title="根本魚骨頭吧這個">
+              <div class="subheading mb-2">自然科學特色班</div>
+              <p>抱著試試看的心情跑進了特色班，結果成為全班唯一就讀一類科系的學生；在這裡的新莊團契遇到了一輩子的朋友。</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2014 - June 2017</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-2">技能</h2>
+
+          <div class="subheading mb-2">剪輯影片</div>
+		  <img src="https://tw.cyberlink.com/prog/bar/img/logo.png"> &nbsp &nbsp &nbsp &nbsp &nbsp <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxOdU-Mi7GhnoBlj4InRM-eRmiIUaRFJ5-U6kQbuIR9il4p1zD" title="騙你的，其實不會" width="70" height="70"> &nbsp &nbsp &nbsp &nbsp &nbsp <img src="https://upload.wikimedia.org/wikipedia/zh/3/37/Windows_Live_Movie_Maker_logo.png" width="110" height="110">
+          <div class="subheading mb-2">拍攝遊戲實況</div>
+		  <img src="https://p2.bahamut.com.tw/HOME/creationCover/60/0003389760_B.PNG" width="70" height="70"> &nbsp &nbsp &nbsp &nbsp &nbsp <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/YouTube_Logo.svg/1000px-YouTube_Logo.svg.png" width="150" height="64">
+		  <div class="subheading mb-2">還在學...</div>
+          <ul class="fa-ul mb-2">
+		  <ul class="list-inline list-icons">
+              <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+			</li>
+			    <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+			    <li class="list-inline-item">
+              <i class="devicons devicons-photoshop"></i>
+            </li>				
+          </ul>
+		  </ul>
+        </div>
+      </section>
+	        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="works">
+        <div class="my-auto">
+	      <h2 class="mb-2">作品</h2>
+		  <p></p>
+		  <h3 class="mb-2">我的夢想 (自我介紹)</h3>
+		  <p></p>
+		  <iframe width="1080" height="720" src="https://www.youtube.com/embed/4eTjK3Y0YSk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  <p></p>
+		  <h3 class="mb-2">Ever and Never Rains (廣播劇)</h3>
+		  <p></p>
+		   <iframe width="1080" height="720" src="https://www.youtube.com/embed/aVlMWQFeSoo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		  <p></p>
+		  <h3 class="mb-2">系網</h3>
+		  <p></p>
+		  <a href="28550159.html">點這裡~</a>
+        </div>
+
+      </section>		  
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-2">興趣</h2>
+          <p>汝，欲瞭吾之好?那你準備好了嗎?</p>
+		  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                href="#collapseOne">
+		  <h3 class="mb-2">
+		  1.動漫
+		  </h3>
+		  </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+          <img src="img/6.jpg" width="100%" height="100%" title="魔法少女小圓，麻豆卡!!!">
+          <img src="https://i.ytimg.com/vi/SQzz9aI3lIA/maxresdefault.jpg" width="100%" height="100%" title="Fate/stay Night，我要成為正義的夥伴!!!">
+		  <img src="https://simg3.gelbooru.com//images/e7/61/e76126d5a34109778ebf7a8ad83343c6.jpg" width="100%" height="100%" title="貞德，我老婆!!!">
+          <img src="https://www.picstatio.com/large/171ce3/celebrations-rem-re-zero.jpg" width="100%" height="100%" style="display:block; margin:auto;" title="雷姆，我老婆!!!">
+         <p></p>
+          <p class="mb-2">天地萬物，唯宅乃吾之所好，其餘萬般皆視如糞土。吾生命所追求的究極之物，宅也!</p>
+		  <p>(好啦，其實還有其他興趣~)</p>
+		  </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                href="#collapseTwo">
+		  <h3 class="mb-2">
+		  2.旅遊
+		  </h3>
+		  </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+        <div class="panel-body">
+		  <div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2013</h2>
+      <p>香港</p>
+	 <img src="https://partnernet.hktb.com/filemanager/en/content_17/123.jpg" width="100%" height="100%">
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2014</h2>
+      <p>日本-沖繩</p>
+	  <img src="http://blog.asiayo.com/wp-content/uploads/2017/03/%E6%B2%96%E7%B9%A9_%E9%A6%96%E5%9C%96_yvonne-1254x768.jpg" width="100%" height="100%">
+    </div>
+  </div>
+  <div class="container left">
+  <div class="content">
+      <h2>2015</h2>
+      <p>泰國-曼谷</p>
+	  <img src="https://www.scooptw.com/wp-content/uploads/116804101.jpg" width="100%" height="100%">
+    </div>
+  </div>
+  <div class="container right">
+  <div class="content">
+      <h2>2017</h2>
+      <p>日本-東京</p>
+	  <img src="http://blog.asiayo.com/wp-content/uploads/%E6%96%B0%E5%AE%BF%E7%AB%99%E7%99%BE%E8%B2%A8-1245x768.jpg" width="100%" height="100%">
+    </div>
+  </div>
+</div>
+        </div>
+        </div>
+    </div>
+	    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                href="#collapseThree">
+		  <h3 class="mb-2">
+		  3.烏克麗麗
+		  </h3>
+		  </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+		  <img src="http://oce.cycu.edu.tw/wSite/public/Data/f1494577629544.jpg">
+		  <p></p>
+		  <p>毫無反應，就只是烏克麗麗</p>
             </div>
         </div>
-    </header>
-    <section class="main">
-        <div class="jumbotron" style="background-image: url('images/bg/bg007.png'); margin-top: -150px;"></div>
-        <div class="hero">
-            <div class="flex content-container">
-                <div class="content-right w-6/12">
-                    <h3 class="title">我們是誰?</h3>
-                    <p class="para">
-                        從一群普通的人，到懷抱夢想的人，到實踐夢想的人。<br>
-                        我們來自不同種族，不同國家，不同地區，不同背景，<br>
-                        但我們不分你我，彼此扶持，與小豆共築同一份夢想。
-                    </p>
-                    <a href="#" class="btn btn-secondary">關於我們</a>
-                </div>
-                <div class="content-left w-6/12">
-                    <div class="image-container">
-                        <div class="image" style="background-image: url('images/bg/bg002.png');">
-                        </div>
-                    </div>
-                </div>
+    </div>
+	    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                href="#collapseFour">
+		  <h3 class="mb-2">
+		  4.探討宇宙人生的奧秘(?)
+		  </h3>
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse in">
+            <div class="panel-body">
+		  <img src="https://images6.alphacoders.com/670/670536.jpg" width="100%" height="100%">
+		  <p></p>
+		  <p>別問我，我自己也不懂</p>
             </div>
         </div>
-
-        <div class="jumbotron" style="background-image: url('images/bg/bg001.png');"></div>
-
-        <div class="hero">
-            <div class="content-container">
-                <div class="section-intro">
-                    <h3 class="title">勇者村是什麼?</h3>
-                        <p class="para">
-                            小豆服創建滿1個月後，勇者村正式成立。<br>
-                            當初只有樹林與草原的野地，<br>
-                            經過了十數人的辛苦耕耘後，<br>
-                            如今發展成了繁榮市鎮。<br>
-                            而我們更是積極向外延伸，擴建新的村落，<br>
-                            為的是容下我們更龐大的夢想。<br>
-                        </p>
-                </div>
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="image-container">
-                            <div class="image" style="background-image: url('images/bg/bg004.png');">
-                            </div>
-                        </div>
-                        <div class="preview">
-                            <h4 class="title">二鎮</h4>
-                            <h5 class="subtitle">現代風建築</h5>
-                            <p class="para">哭喔</p>
-                            <a href="" class="btn btn-secondary">了解更多</a>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="image-container">
-                            <div class="image" style="background-image: url('images/bg/bg005.png');">
-                            </div>
-                        </div>
-                        <div class="preview">
-                            <h4 class="title">三鎮-競技場</h4>
-                            <h5 class="subtitle">未來風建築</h5>
-                            <p class="para">哭喔</p>
-                            <a href="" class="btn btn-secondary">了解更多</a>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="image-container">
-                            <div class="image" style="background-image: url('images/bg/bg006.png');">
-                            </div>
-                        </div>
-                        <div class="preview">
-                            <h4 class="title">四鎮-姬路城</h4>
-                            <h5 class="subtitle">日式建築</h5>
-                            <p class="para">哭喔</p>
-                            <a href="" class="btn btn-secondary">了解更多</a>
-                        </div>
-                    </div>
-                </div>
+    </div>
+	    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                href="#collapseFive">
+		  <h3 class="mb-2">
+		  5.排球
+		  </h3>
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse in">
+            <div class="panel-body">
+		  <img src="https://sites.google.com/site/weekendvolleyball8/_/rsrc/1335927750044/home/2630volleyball.jpg?height=300&width=607">
+		  <p></p>
+		  <p>毫無反應，就只是顆排球</p>
             </div>
         </div>
+    </div>
+</div>
+        </div>
+      </section>
 
-        <div class="jumbotron" style="background-image: url('images/bg/bg003.png');"></div>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="dream">
+        <div class="my-auto">
+          <h2 class="mb-2">未來想完成的事</h2>
+		  <table class="table table-hover table-active" width="500px" height="700px">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col"><font size="5">事項</font></th>
+      <th scope="col"><font size="5">時限</font></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><font size="5">精通英文</font></td>
+      <td><font size="5">畢業前</font></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><font size="5">精通日文</font></td>
+      <td><font size="5">畢業前</font></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><font size="5">學會寫程式</font></td>
+      <td><font size="5">畢業前</font></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><font size="5">學會鋼琴</font></td>
+      <td><font size="5">10年內</font></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><font size="5">學會爵士鼓</font></td>
+      <td><font size="5">10年內</font></td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><font size="5">成為烏克麗麗大師</font></td>
+      <td><font size="5">10年內</font></td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td><font size="5">到北海道看雪</font></td>
+      <td><font size="5">10年內</font></td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td><font size="5">單車環島</font></td>
+      <td><font size="5">10年內</font></td>
+    </tr>	
+  </tbody>
+</table>
+        </div>
+      </section>
 
+    </div>
 
-    </section>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <footer></footer>
-</body>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
 
 </html>
