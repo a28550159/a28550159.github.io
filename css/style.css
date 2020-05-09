@@ -88,6 +88,8 @@ a {
     position: relative;
     top: -150px;
     bottom: 0px;
+    height: 100%;
+    width: 100%;
     border-bottom: 10px solid #000000;
 }
 
@@ -191,6 +193,7 @@ a {
 
 .service-item .image-container .image {
     margin-bottom: -50px;
+    cursor: pointer;
 }
 
 .service-item .title {
