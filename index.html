@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
 
-    <script src="js/resume.min.js"></script>
+    <script type="text/javascript" src="js/resume.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
 </head>
 
 <body class="wrapper">
@@ -35,8 +36,11 @@
         </div>
     </header>
     <section class="main">
-        <div class="jumbotron" style="background-image: url('images/bg/bg007.png'); margin-top: -150px;"></div>
-        <div class="hero" style="margin-top:100px">
+        <video class="video" loop="true" autoplay="autoplay" muted="true">
+            <source type="video/mp4" src="images/bg/bg001.mp4">
+            </source>
+        </video>
+        <div class="hero">
             <div class="flex content-container">
                 <div class="content-right w-6/12">
                     <h3 class="title">我們是誰?</h3>
@@ -59,7 +63,7 @@
         <div class="hero">
             <div class="content-container">
                 <div class="section-intro">
-                    <h3 class="title">勇者村是什麼?</h3>
+                    <h3 class="title">勇者村</h3>
                     <p class="para">
                         小豆服創建滿1個月後，勇者村正式成立。<br>
                         當初只有樹林與草原的野地，<br>
