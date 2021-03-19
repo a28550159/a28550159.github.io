@@ -651,15 +651,15 @@ span {
         margin-bottom: 70px;
     }
     .service-container .on-top {
-        height: 70%;
+        height: 80%;
     }
     .service-container .on-top:hover {
-        margin-top: 35%;
-        height: 70%;
+        margin-top: 25%;
+        height: 80%;
     }
     .on-top {
         position: absolute;
-        margin-top: 35%;
+        margin-top: 25%;
     }
     .mask-dark {
         display: none;
