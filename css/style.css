@@ -678,9 +678,13 @@ span {
         padding-bottom: 80px;
     }
     #phone04 {
-        flex-direction: row;   
+        flex-direction: row;
+        margin-bottom: -100px;
     }
     #phone05 {
         width: 32%;
+    }
+    #phone06 {
+        font-size: 44px;
     }
   }
