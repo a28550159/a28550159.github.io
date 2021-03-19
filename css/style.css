@@ -663,6 +663,9 @@ span {
     .mask-dark {
         display: none;
     }
+    .content-container .section-intro .para{
+        font-size: 12px;
+    }
     #phone01 {
         flex-direction: column;
     }
