@@ -622,15 +622,58 @@ span {
         width: 90%;
         margin-left: 8%;
     }
+    .hero .content-container .service-container {
+        flex-direction: column;
+    }
+    .hero .content-container .service-container .service-item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero .content-container .service-container .service-item .image-container {
+        margin-bottom: 70px;
+    }
+    .on-top {
+        position: absolute;
+        margin-top: 15%;
+    }
+    .service-container .on-top {
+        height: 90%;
+    }
+    .service-container .on-top:hover {
+        margin-top: 15%;
+        height: 90%;
+    }
+    #phone04 {
+        flex-direction: row;
+    }
+    #phone05 {
+        width: 32%;
+    }
+    #phone07 {
+        padding-left: 0px;
+    }
+    #phone08 {
+        width: 90%;
+        white-space: nowrap;
+    }
+    #phone09 {
+        flex-direction: column-reverse;
+    }
+    #phone10 {
+        font-size: 20px;
+    }
+    #paid01 {
+        flex-direction: row;
+    }
   }
 
   @media (max-width: 768px){
-      .nav-link {
+    .nav-link {
         font-size: 16px;
         line-height: 35px;
         margin-left: -20px;
       }
-      .jumbotron .hero .content-container {
+    .jumbotron .hero .content-container {
         flex-direction: row;
     }
     .content-left {
@@ -649,27 +692,6 @@ span {
     .jumbotron .hero .content-container .content-right .image-container  {
         margin-left: 0px;
         margin-bottom: 50px;
-    }
-    .hero .content-container .service-container {
-        flex-direction: column;
-    }
-    .hero .content-container .service-container .service-item {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .hero .content-container .service-container .service-item .image-container {
-        margin-bottom: 70px;
-    }
-    .service-container .on-top {
-        height: 90%;
-    }
-    .service-container .on-top:hover {
-        margin-top: 15%;
-        height: 90%;
-    }
-    .on-top {
-        position: absolute;
-        margin-top: 15%;
     }
     .mask-dark {
         display: none;
@@ -696,29 +718,13 @@ span {
     #phone03{
         padding-bottom: 80px;
     }
+    
     #phone04 {
-        flex-direction: row;
         margin-bottom: -100px;
-    }
-    #phone05 {
-        width: 32%;
     }
     #phone06 {
         font-size: 38px;
         white-space: nowrap;
         text-align: center;
-    }
-    #phone07 {
-        padding-left: 0px;
-    }
-    #phone08 {
-        width: 90%;
-        white-space: nowrap;
-    }
-    #phone09 {
-        flex-direction: column-reverse;
-    }
-    #phone10 {
-        font-size: 20px;
     }
   }
