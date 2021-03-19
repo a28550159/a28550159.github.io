@@ -449,7 +449,13 @@ span {
 	color: #000000;
 }
 
+#phone07 {
+    padding-left: 30px;
+}
 
+#phone08 {
+    width: 50%;
+}
 
 @media (max-width: 1280px){
     .on-top .title {
@@ -668,6 +674,9 @@ span {
     .content-container .section-intro .para{
         font-size: 12px;
     }
+    .product-item .title2 {
+        font-size: 100px;
+    }
     #phone01 {
         flex-direction: column;
     }
@@ -689,5 +698,15 @@ span {
         font-size: 38px;
         white-space: nowrap;
         text-align: center;
+    }
+    #phone07 {
+        padding-left: 0px;
+    }
+    #phone08 {
+        width: 90%;
+        white-space: nowrap;
+    }
+    #phone09 {
+        flex-direction: column-reverse;
     }
   }
