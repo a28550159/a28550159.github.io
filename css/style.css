@@ -457,6 +457,9 @@ span {
     width: 50%;
 }
 
+#phone10 {
+    font-size: 30px;
+}
 @media (max-width: 1280px){
     .on-top .title {
         font-size: 16px;
@@ -677,6 +680,12 @@ span {
     .product-item .title2 {
         font-size: 100px;
     }
+    .jumbotron .hero .section-intro .title {
+        font-size: 38px;
+    }
+    .section-intro .service-item .para2 {
+        font-size: 8px;
+    }
     #phone01 {
         flex-direction: column;
     }
@@ -708,5 +717,8 @@ span {
     }
     #phone09 {
         flex-direction: column-reverse;
+    }
+    #phone10 {
+        font-size: 20px;
     }
   }
