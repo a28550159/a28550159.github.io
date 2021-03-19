@@ -440,6 +440,7 @@ span {
         font-size: 16px;
     }
     .navbar {
+        position: relative;
         height: 120px;
         width: 100%;
         z-index: 500;
@@ -478,7 +479,7 @@ span {
     }
     .showmenu{
       display: block;
-      position: fixed;
+      position: absolute;
       margin-top: 10px;
       margin-right: 20px;
       width: 40px;
@@ -532,14 +533,14 @@ span {
         top: 0%;
         left: 5%;
         width: 90%;
-        height: 50%;
+        height: 85%;
         transition: 0.7s;
         border-radius: 5px;
     }
     .service-container .on-top:hover {
         transform: none;
-        margin-top: 50%;
-        height: 50%;
+        margin-top: 25%;
+        height: 85%;
     }
     .on-top {
         position: absolute;
@@ -547,15 +548,12 @@ span {
         z-index: 0;
         opacity: 1;
         transition: none;
-        margin-top: 50%;
+        margin-top: 25%;
         width: 100%;
     }
     .on-top:hover {
         transform: none;
       }
-    .service-item .title:after {
-        color: #0d7377;
-    }
     .menu-show .showmenu{
         top: 15px;
     }
@@ -583,40 +581,29 @@ span {
     .menu-show span.x{
         display: block;
     }
+    .content-container {
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .content-container .content-right .para {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .jumbotron {
+        padding-bottom: 300px;
+    }
+    .jumbotron .hero .content-container {
+        width: 90%;
+        margin-left: 8%;
+    }
   }
 
   @media (max-width: 768px){
       .nav-link {
         font-size: 20px;
       }
-      .jumbotron {
-          height: 1800px;
-          margin-bottom: 120px;
-      }
-      .hero {
-          margin-bottom: 50px;
-      }
-      .col-md-6 {
-          margin-bottom: 55px;
-      }
-      .service-item .title {
-        text-align: left;
-        z-index: 0;
-        left: 10%;
-        top: -50px;
-        margin-bottom: -69px;
-        color: #ffffff;
+      .jumbotron .hero .content-container {
+        flex-direction: row;
     }
-    .service-item .title:after {
-        display: none;
-    }
-    .service-container {
-        flex-wrap: wrap;
-    }
-    .service-item {
-        width: 100%;
-    }
-      .menu-show .home {
-        left: 75%;
-      }
   }
