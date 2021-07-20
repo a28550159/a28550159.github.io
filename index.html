@@ -3,24 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>勇者村-The Warriors</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
-
-    <script type="text/javascript" src="js/resume.min.js"></script>
-    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/resume.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 </head>
 
-<body class="wrapper">
-    <header class="header">
-        <div class="navbar fix">
-            <div class="container">
+<body>
+    <header>
+        <div class="navbar rwd-navbar">
+            <div class="nav-container">
                 <a href="index.html" class="brand"></a>
-                <ul class="nav fix01">
+                <ul class="nav rwd-nav">
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link page-scroll">最新消息</a>
+                    </li>
                     <li class="nav-item">
                         <a href="introduction.html" class="nav-link page-scroll">成員介紹</a>
                     </li>
@@ -29,9 +33,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="join.html" class="nav-link page-scroll">加入我們</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://discord.gg/kQDd5nM6Q3" target="_blank" class="nav-link page-scroll">小豆內服</a>
                     </li>
                 </ul>
                 <div class="showmenu">
@@ -43,15 +44,22 @@
         </div>
     </header>
 
-    <section class="main">
+    <section class="main01">
         <video class="video" loop="true" autoplay="autoplay" muted="true">
             <source type="video/mp4" src="images/bg/bg000.mp4">
             </source>
         </video>
+        <div class="image-container" id="video-logo">
+            <div class="image" style="background-image: url('images/common/video-logo.png');">
+            </div>
+        </div>
+    </section>
+
+    <section class="main02">
         <div class="hero">
-            <div class="flex content-container" id="phone01">
-                <div class="content-right" id="phone02">
-                    <div class="product-item wow">
+            <div class="container">
+                <div class="content-right">
+                    <div class="anime wow">
                         <h3 class="title">我們是誰?</h3>
                         <p class="para">
                             從一群普通的人，到懷抱夢想的人，到實踐夢想的人。<br>
@@ -62,7 +70,7 @@
                     </div>
                 </div>
                 <div class="content-left">
-                    <div class="product-item wow">
+                    <div class="anime wow">
                         <div class="image-container">
                             <div class="image" style="background-image: url('images/bg/image00.png');"></div>
                         </div>
@@ -70,18 +78,21 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="jumbotron" style="background-image: url('images/bg/bg001.png'); padding-top: 100px;"></div>
+    <div class="jumbotron" style="background-image: url('images/bg/bg001.png'); padding-top: 100px;"></div>
+
+    <section class="main03">
         <div class="hero">
-            <div class="content-container">
-                <div class="section-intro" style="padding-top: 50px;">
-                    <div class="product-item wow">
+            <div class="container">
+                <div class="section-intro">
+                    <div class="anime wow">
                         <h3 class="title">勇者村</h3>
                     </div>
                 </div>
-                <div class="service-container flex justify-between" id="phone04">
-                    <div class="service-item" id="phone05">
-                        <div class="product-item wow">
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <div class="image" style="background-image: url('images/bg/image01.png');">
                                 </div>
@@ -89,8 +100,8 @@
                         </div>
 
                     </div>
-                    <div class="service-item" id="phone05">
-                        <div class="product-item wow">
+                    <div class="section-item">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <div class="image" style="background-image: url('images/bg/image02.png');">
                                 </div>
@@ -98,8 +109,8 @@
                         </div>
 
                     </div>
-                    <div class="service-item" id="phone05">
-                        <div class="product-item wow">
+                    <div class="section-item">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <div class="image" style="background-image: url('images/bg/image03.png');">
                                 </div>
@@ -108,8 +119,8 @@
 
                     </div>
                 </div>
-                <div class="section-intro" style="margin-top: 80px;">
-                    <div class="product-item wow">
+                <div class="section-intro">
+                    <div class="anime wow">
                         <p class="para">
                             小豆服創建滿1個月後，勇者村正式成立。<br>
                             當初只有樹林與草原的野地，<br>
@@ -121,9 +132,9 @@
                         <a href="guide.html" class="btn btn-primary">村落導覽</a>
                     </div>
                 </div>
-                <div class="service-container flex justify-between" id="phone04">
-                    <div class="service-item" id="phone05">
-                        <div class="product-item wow">
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <div class="image" style="background-image: url('images/bg/image04.png');">
                                 </div>
@@ -131,8 +142,8 @@
                         </div>
 
                     </div>
-                    <div class="service-item" id="phone05">
-                        <div class="product-item wow">
+                    <div class="section-item">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <div class="image" style="background-image: url('images/bg/image05.png');">
                                 </div>
@@ -140,8 +151,8 @@
                         </div>
 
                     </div>
-                    <div class="service-item" id="phone05">
-                        <div class="product-item wow">
+                    <div class="section-item">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <div class="image" style="background-image: url('images/bg/image06.png');">
                                 </div>
@@ -152,22 +163,24 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="jumbotron" style="background-image: url('images/bg/bg002.png'); margin-bottom: -100px;">
-            <div class="hero" style="margin-bottom: -200px;">
-                <div class="flex content-container" style="margin-bottom: 100px;">
+    <section class="main04">
+        <div class="jumbotron" style="background-image: url('images/bg/bg002.png');">
+            <div class="hero">
+                <div class="container">
                     <div class="content-right">
-                        <div class="product-item wow">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <iframe class="image" width="560" height="315"
-                                    src="https://www.youtube.com/embed/Qfrtqv1JRk4" frameborder="0"
+                                    src="https://www.youtube.com/embed/aAUWnfm4GWI" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                     <div class="content-left">
-                        <div class="product-item wow">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <iframe class="image" width="560" height="315"
                                     src="https://www.youtube.com/embed/UhGX9H2vUvU" frameborder="0"
@@ -177,22 +190,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex content-container">
+                <div class="container">
                     <div class="content-right">
-                        <div class="product-item wow">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <iframe class="image" width="560" height="315"
-                                    src="https://www.youtube.com/embed/r6TnMslOXrA" frameborder="0"
+                                    src="https://www.youtube.com/embed/4Xnww0mb3_k" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                     <div class="content-left">
-                        <div class="product-item wow">
+                        <div class="anime wow">
                             <div class="image-container">
                                 <iframe class="image" width="560" height="315"
-                                    src="https://www.youtube.com/embed/6HNuERdlgwc" frameborder="0"
+                                    src="https://www.youtube.com/embed/X0iqF3mG26A" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
@@ -201,75 +214,41 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <footer class="footer" style="top: 100px">
-        <div class="infor">
-            <p style="color: #ffffff;">勇者村 © The Warriors Corporation All Rights Reserved.</p>
+        <div>
+            <p>勇者村 © The Warriors Corporation All Rights Reserved.</p>
         </div>
     </footer>
 
+    <a href="#" class="toTop">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </a>
+
 </body>
 
-<script src="js/wow.min.js"></script>
-<script src="js/rellax.min.js"></script>
 <script>
-    // wow.js initialize
-    wow = new WOW({
-        offset: 200
-    });
-    wow.init();
+    document.getElementById('video-logo').onclick = disappear;
 
-    // rellax initialize
-    var rellax = new Rellax('.rellax', {
-        center: true
-    });
+    function disappear() {
+        document.getElementById('video-logo').style.animation = 'ani-fadeOut 1s 0s forwards';
+    }
 </script>
-<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
-<script>
-    /* paste this in verbatim */
-    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments); };
 
-    /* customize formbutton here*/
-    formbutton("create", {
-        action: "https://formspree.io/f/xzbkewgb",
-        title: "Welcome to contact us",
-        fields: [
-            {
-                type: "email",
-                label: "Email:",
-                name: "email",
-                required: true,
-                placeholder: "your@email.com"
-            },
-            {
-                type: "textarea",
-                label: "Message:",
-                name: "message",
-                placeholder: "What's on your mind?",
-            },
-            { type: "submit" }
-        ],
-        styles: {
-            fontFamily: "Montserrat",
-            title: {
-                background: "gray",
-            },
-            button: {
-                background: "gray",
-            }
-        },
-        initiallyVisible: true
-    });
-</script>
-<script>
+<script> 
+    $.noConflict(); 
+    jQuery(document).ready(function($) { 
+        $(document).ready(function () {
+    $(".fancybox").fancybox();
+})
+    }); 
     $(document).ready(function () {
         $('.showmenu').on('click', function (e) {
             e.preventDefault();
             $('body').toggleClass('menu-show');
-        });
-    });
+        })
+    })
 </script>
 
 </html>

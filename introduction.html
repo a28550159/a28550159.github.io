@@ -3,24 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>勇者村-The Warriors</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
-
-    <script type="text/javascript" src="js/resume.min.js"></script>
-    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/resume.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 </head>
 
-<body class="wrapper">
-    <header class="header">
-        <div class="navbar fix">
-            <div class="container">
+<body>
+    <header>
+        <div class="navbar rwd-navbar">
+            <div class="nav-container">
                 <a href="index.html" class="brand"></a>
-                <ul class="nav fix01">
+                <ul class="nav rwd-nav">
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link page-scroll">最新消息</a>
+                    </li>
                     <li class="nav-item">
                         <a href="introduction.html" class="nav-link page-scroll" style="color: #c7753d;">成員介紹</a>
                     </li>
@@ -29,9 +33,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="join.html" class="nav-link page-scroll">加入我們</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://discord.gg/kQDd5nM6Q3" target="_blank" class="nav-link page-scroll">小豆內服</a>
                     </li>
                 </ul>
                 <div class="showmenu">
@@ -43,479 +44,663 @@
         </div>
     </header>
 
-    <section class="main">
-        <div class="jumbotron" style="background-image: url('images/bg/in-bg001.png'); margin-bottom: 120px;" id="phone03">
-            <div class="mask-dark" style="background-image: url('images/bg/in-bg002.png');"></div>
-        </div>
+    <div class="jumbotron" style="background-image: url('images/bg/in-bg001.png');">
+        <div class="mask-dark" style="background-image: url('images/bg/in-bg002.png');"></div>
+    </div>
 
+    <section class="interduction01">
         <div class="hero">
-            <div class="content-container">
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p01.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【村長】</span>
-                                            <span style="font-size: 20px;">聚落首領</span><br /><br />
-                                            <span>勇者村創始成員，物資組組長，四鎮負責人，小豆服第一位擁有墳墓的人。物資組最強成員，是肝帝中的肝帝。雖然作為一村之長，卻時常被其他成員欺負，但狂暴化後沒人打得贏他。</span>
-                                        </p>
-                                    </div>
-                                </div>
+            <div class="container">
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p01.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">村長</h3>
+                                <h4 class="subtitle">初代村長</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，前姬路城負責人，小豆服第一位擁有墳墓的人。曾經是物資組最強成員，是肝帝中的肝帝。雖然作為一村之長，卻時常被其他成員欺負，但狂暴化後沒人打得贏他。
+                                </p>
                             </div>
                         </div>
 
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p02.jpg');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【幽靈】</span>
-                                            <span style="font-size: 20px;">聚落管理</span><br /><br />
-                                            <span>勇者村創始成員，實況組組長，二鎮負責人。擅長天然造景，嘴砲很厲害，會電音編曲，勇者村顏值擔當（被強迫寫上去的）。</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
                         </div>
 
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p03.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【斑馬】</span>
-                                            <span style="font-size: 20px;">聚落管理</span><br /><br />
-                                            <span>勇者村創始成員，咕咕組組長，主鎮負責人。擅長城市規劃、修理紅石，脾氣很差，常常被幽靈嗆。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p02.jpg');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">幽靈</h3>
+                                <h4 class="subtitle">現任村長 首席地形師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，二鎮、三鎮負責人，YouTube頻道經營者。擅長天然造景、地圖畫、像素畫。嘴砲很厲害，會電音編曲，勇者村顏值擔當（被強迫寫上去的）。
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p03.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">白豹</h3>
+                                <h4 class="subtitle">聚落管理 首席建築師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，主鎮負責人。擅長所有建築，勇者村最強建築師，村落幾乎一半的建築都由他手所造。會偽音，常常不獸控制，勇者村建築三巨頭之一。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
+                    </div>
+
                 </div>
-                <br /><br /><br />
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p04.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【白豹】</span>
-                                            <span style="font-size: 20px;">聚落管理 首席建築師</span><br /><br />
-                                            <span>勇者村創始成員，建築組組長，主鎮負責人。擅長所有建築，勇者村最強建築師，會偽音，喜歡獸人。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p04.png');">
                             </div>
                         </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p05.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【萊茵】</span>
-                                            <span style="font-size: 20px;">前管理 建築師</span><br /><br />
-                                            <span>勇者村創始成員，三鎮負責人。擅長模仿小豆，目前正在咕。</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">神祕人</h3>
+                                <h4 class="subtitle">聚落管理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    一個很白很神秘的人，普通比幽靈帥的人，擅長中式和日式建築。在姬路城地底進行著不可告人的非法商業行為，多次激怒幽靈和包包。
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p06.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【錒默】</span>
-                                            <span style="font-size: 20px;">小管理 網站設計師</span><br /><br />
-                                            <span>勇者村創始成員，物資組、實況組組員。擅長肝，什麼都會一點，目前介於咕和不咕之間。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p05.png');">
                             </div>
                         </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">萊茵</h3>
+                                <h4 class="subtitle">前管理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，前三鎮負責人。擅長模仿小豆，目前正在咕。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p06.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">斑馬</h3>
+                                <h4 class="subtitle">前管理 瓜王</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，主鎮負責人。擅長城市規劃、修理紅石，常常被幽靈嗆。以前脾氣很差，但經過了各種人生歷練後，現在已經圓滑許多。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
+                    </div>
+
                 </div>
-                <br /><br /><br />
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p07.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【樂樂】</span>
-                                            <span style="font-size: 20px;">室內設計師 建築師</span><br /><br />
-                                            <span>勇者村創始成員，海上交易所負責人。擅長內飾，歌聲優美，常常被幽靈嗆。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p07.png');">
                             </div>
                         </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p08.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【暗帝】</span>
-                                            <span style="font-size: 20px;">建築師</span><br /><br />
-                                            <span>各樣大型建築負責人。擅長中世紀建築，勇者村最強打嗝製造機。</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">錒默</h3>
+                                <h4 class="subtitle">網站設計師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，YouTube頻道經營者。擅長肝，什麼都會一點，目前介於咕和不咕之間。目前經營的蛋糕店，在勇者村各處都有佈局。
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p09.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【JJGP】</span>
-                                            <span style="font-size: 20px;">首席紅石師</span><br /><br />
-                                            <span>各樣大型紅石機關建造者。勇者村最強紅石師，曾經在勇者村外服把終界島用三向轟炸機移平，差點因此被BAN。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p08.png');">
                             </div>
                         </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">樂樂</h3>
+                                <h4 class="subtitle">室內設計師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，擅長做室內設計，也蓋過許多建築。歌聲優美，常常被幽靈嗆。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p09.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">JJGP</h3>
+                                <h4 class="subtitle">首席紅石師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    各樣大型紅石機關建造者。勇者村最強紅石師，曾經在勇者村外服把終界島用三向轟炸機移平，差點因此被BAN。目前因沉迷於CSGO而咕了。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
+                    </div>
+
                 </div>
-                <br /><br /><br />
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p10.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【HETZER】</span>
-                                            <span style="font-size: 20px;">紅石師</span><br /><br />
-                                            <span>勇者村創始成員，物資組組員。擅長肝，喜歡鑽地洞，在勇者村主鎮地底建造了一座巨型基地。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p10.png');">
                             </div>
                         </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p11.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【Kan】</span>
-                                            <span style="font-size: 20px;">紅石師</span><br /><br />
-                                            <span>小豆服元老級成員，工業區負責人。擅長紅石，但做出來的機器常常自爆，然後被斑馬罵。</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">HETZER</h3>
+                                <h4 class="subtitle">紅石師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員。機械愛好者，擅長肝，喜歡鑽地洞。在勇者村主鎮地底建造了一座巨型基地，並且興建了各樣紅石機器，成為主鎮卡服的最大原因。
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p12.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【似乎】</span>
-                                            <span style="font-size: 20px;">物資組</span><br /><br />
-                                            <span>勇者村創始成員。存在感非常低，似乎不存在一般。名言：「咖啡是一種豆漿，茶是一種蔬菜湯。」</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p11.png');">
                             </div>
                         </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">似乎</h3>
+                                <h4 class="subtitle">外交官</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員。存在感非常低，似乎不存在一般。有事沒事會在小豆服亂TP人，喜歡和各種不同聚落的人交朋友。名言：「咖啡是一種豆漿，茶是一種蔬菜湯。」
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p12.jpg');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">暗帝</h3>
+                                <h4 class="subtitle">建築師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    伯利恆山-極德蘭鎮負責人。擅長中世紀建築以及大型建築，勇者村最強打嗝製造機，勇者村建築三巨頭之一。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
+                    </div>
+
                 </div>
-                <br /><br /><br />
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p13.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【Kano】</span>
-                                            <span style="font-size: 20px;">美術助理</span><br /><br />
-                                            <span>勇者村創始成員，村徽設計者。建村以來一半以上時間都在咕，目前專職UTAU調教與台V圈DD。</span><br /><br />
-                                            <span>Twitter：@Kanoka002</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p13.png');">
                             </div>
                         </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p14.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【艾謐灰】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>花寧潭負責人。PvP高手，擅長跑酷，在自家地下室建造了一座魔鬼跑酷塔。</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">Kan</h3>
+                                <h4 class="subtitle">紅石師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    小豆服元老級成員，工業區負責人。擅長紅石，但做出來的機器常常自爆，然後被斑馬罵。
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p15.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【花梨】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>個性害羞，幾乎不講話。有辦法潛入語音群，偷聽大家聊天好幾個小時不被發現。擅長小型建築。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p14.png');">
                             </div>
                         </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">沁沁</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para" style="text-align: center;">
+                                    幽靈女友，啥也沒幹<br>麥塊新手，喜歡追番<br>建築助手，擅長吃飯
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p15.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">Kano</h3>
+                                <h4 class="subtitle">美術助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村創始成員，村徽設計者。建村以來一半以上時間都在咕，目前專職UTAU調教與台V圈DD。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
+                    </div>
+
                 </div>
-                <br /><br /><br />
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p16.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【蒼鳴】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>勇者村普通村民一枚，喜歡中式建築，什麼都會一點，目前因學業而暫時咕咕ing。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p16.png');">
                             </div>
                         </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p17.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【蘇蘇】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>勇者村村民，平時喜歡暗中觀察其他成員，擅長巴洛克、中式、魔幻建築，似乎很喜歡鴿子這種動物。</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">包包</h3>
+                                <h4 class="subtitle">建築師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    姬路城負責人，擅長日式建築，唱歌很強。曾經拯救過多數勇者村成員，被奉為救世主，感恩包包~讚嘆包包~
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p18.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【極虎】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>偷渡者一個。較擅長跑酷，最近因沉迷其他遊戲而咕，在準備高考中。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p17.png');">
                             </div>
                         </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">肉圓</h3>
+                                <h4 class="subtitle">建築師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    花寧潭負責人。肉圓是叫肉圓不是叫做肉圓總之是肉圓，肝建築物資的，肉圓炸的蒸的都吃。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p18.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">蘇蘇</h3>
+                                <h4 class="subtitle">建築師</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村村民，平時喜歡暗中觀察其他成員，擅長巴洛克、中式、魔幻建築，似乎很喜歡鴿子這種動物。勇者村建築三巨頭之一。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
+                    </div>
+
                 </div>
-                <br /><br /><br />
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p19.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【碧雪沁】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>幽靈女友，啥也沒幹<br>麥塊新手，喜歡追番<br>建築助手，擅長吃飯</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p19.png');">
                             </div>
                         </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p20.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【鑽石山】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>物資組組員。是妹子，喜歡妹子還有偷穴居老人的蛋和聽故事。在肝功課考試中。</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">極虎</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    偷渡者一個。較擅長跑酷，最近因沉迷其他遊戲而咕，在準備高考中。
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p21.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【神祕人】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>一個很白很神秘的人，普通比幽靈帥的人，擅長中式和日式建築。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p20.png');">
                             </div>
                         </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">冰霜</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    是一個喜歡做材質包的Minecraft玩家，目前正在朝著VTuber的夢想努力。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p21.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">凌</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    音遊人一個，喜歡DY娘但不會打dynamix。打算在Minecraft搞個arcaea城？但建築能力低下一直沒搞（咕咕咕）。喜歡PvP。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
+                    </div>
+
                 </div>
-                <br /><br /><br />
-                <div class="service-container flex justify-between">
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p22.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【冰霜】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>是一個喜歡做材質包的Minecraft玩家，目前正在朝著VTuber的夢想努力。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p22.png');">
                             </div>
                         </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p23.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【凌】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>音遊人一個，喜歡DY娘但不會打dynamix。打算在Minecraft搞個arcaea城？但建築能力低下一直沒搞（咕咕咕）。喜歡PvP(1.8.9)。</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">yuxing</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    物資組組員。村長說什麼就做什麼，目前在忙學業，在咕。
+                                </p>
                             </div>
                         </div>
 
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
                     </div>
-                    <div class="service-item">
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <div class="image" style="background-image: url('images/bg/p24.png');">
-                                    <div class="on-top">
-                                        <p class="para">
-                                            <span style="font-size: 30px;">【yuxing】</span>
-                                            <span style="font-size: 20px;">建築助理</span><br /><br />
-                                            <span>物資組組員。村長說什麼就做什麼，目前在忙學業，在咕。</span>
-                                        </p>
-                                    </div>
-                                </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p23.png');">
                             </div>
                         </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">花梨</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    個性害羞，幾乎不講話。有辦法潛入語音群，偷聽大家聊天好幾個小時不被發現。擅長小型建築。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
                     </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p24.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">蒼鳴</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村普通村民一枚，喜歡中式建築，什麼都會一點，目前因學業而暫時咕咕ing。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="section-container">
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p25.jpg');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">ZTHHK</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    勇者村新人，個人喜好探索歷史戰爭，會建中日式建築，目前處於一日都建一點點東西的狀態。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
+                    </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p26.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">音羽結月</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    年紀最小的成員，擅長音樂跟美術，因為學業平日不常上線，因為電腦網路爛參加音樂會而常被叫「電子音月」。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p002.png');">
+                        </div>
+
+                    </div>
+
+                    <div class="section-item">
+                        <div class="image-container">
+                            <div class="image" style="background-image: url('images/bg/p27.png');">
+                            </div>
+                        </div>
+                        <div class="section-intro">
+                            <div class="anime wow">
+                                <h3 class="title">伊神</h3>
+                                <h4 class="subtitle">建築助理</h4>
+                            </div>
+                            <div class="anime wow">
+                                <p class="para">
+                                    ，。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tag" style="background-image: url('images/common/p001.png');">
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
         </div>
-
     </section>
 
     <footer class="footer" style="top: 100px">
-        <div class="infor">
-            <p style="color: #ffffff;">勇者村 © The Warriors Corporation All Rights Reserved.</p>
+        <div>
+            <p>勇者村 © The Warriors Corporation All Rights Reserved.</p>
         </div>
     </footer>
 
+    <a href="#" class="toTop">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </a>
+
 </body>
 
-<script src="js/wow.min.js"></script>
-<script src="js/rellax.min.js"></script>
-<script>
-    // wow.js initialize
-    wow = new WOW({
-        offset: 200
-    });
-    wow.init();
-
-    // rellax initialize
-    var rellax = new Rellax('.rellax', {
-        center: true
-    });
-</script>
-<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
-<script>
-    /* paste this in verbatim */
-    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments); };
-
-    /* customize formbutton here*/
-    formbutton("create", {
-        action: "https://formspree.io/f/xzbkewgb",
-        title: "Welcome to contact us",
-        fields: [
-            {
-                type: "email",
-                label: "Email:",
-                name: "email",
-                required: true,
-                placeholder: "your@email.com"
-            },
-            {
-                type: "textarea",
-                label: "Message:",
-                name: "message",
-                placeholder: "What's on your mind?",
-            },
-            { type: "submit" }
-        ],
-        styles: {
-            fontFamily: "Montserrat",
-            title: {
-                background: "gray",
-            },
-            button: {
-                background: "gray",
-            }
-        },
-        initiallyVisible: false
-    });
-</script>
-<script>
+<script> 
+    $.noConflict(); 
+    jQuery(document).ready(function($) { 
+        $(document).ready(function () {
+    $(".fancybox").fancybox();
+})
+    }); 
     $(document).ready(function () {
         $('.showmenu').on('click', function (e) {
             e.preventDefault();
             $('body').toggleClass('menu-show');
-        });
-    });
+        })
+    })
 </script>
 
 </html>

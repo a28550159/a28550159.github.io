@@ -3,24 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>勇者村-The Warriors</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
-
-    <script type="text/javascript" src="js/resume.min.js"></script>
-    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
+    <script src="js/wow.min.js"></script>
+    <script src="js/resume.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 </head>
 
-<body class="wrapper">
-    <header class="header">
-        <div class="navbar fix">
-            <div class="container">
+<body>
+    <header>
+        <div class="navbar rwd-navbar">
+            <div class="nav-container">
                 <a href="index.html" class="brand"></a>
-                <ul class="nav fix01">
+                <ul class="nav rwd-nav">
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link page-scroll">最新消息</a>
+                    </li>
                     <li class="nav-item">
                         <a href="introduction.html" class="nav-link page-scroll">成員介紹</a>
                     </li>
@@ -29,9 +33,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="join.html" class="nav-link page-scroll">加入我們</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://discord.gg/kQDd5nM6Q3" target="_blank" class="nav-link page-scroll">小豆內服</a>
                     </li>
                 </ul>
                 <div class="showmenu">
@@ -43,188 +44,43 @@
         </div>
     </header>
 
-    <section class="main">
-        <div class="jumbotron" style="background-image: url('images/bg/gu-bg001.png'); margin-bottom: 120px;" id="phone03">
-            <div class="mask-dark" style="background-image: url('images/bg/gu-bg002.png');"></div>
-        </div>
+    <div class="jumbotron" style="background-image: url('images/bg/gu-bg001.png');">
+        <div class="mask-dark" style="background-image: url('images/bg/gu-bg002.png');"></div>
+    </div>
+
+    <section class="guide01">
         <div class="hero">
-            <div class="content-container">
-                <div class="section-intro">
-                    <div class="product-item wow">
-                        <h3 class="title" id="phone06">想逛哪個建築群呢？</h3>
-                    </div>
-                </div>
-                <div class="service-container flex justify-between">
-                    <div class="service-item" style="background-color: beige; margin-top: 50px; border-radius: 5%; border:2px solid #ffffff;">
-                        <div class="section-intro">
-                            <div class="product-item wow">
-                                <h3 class="title">主鎮</h3>
-                                <p class="para" style="margin:-20px -72px -80px 0px;">歐式建築</p>
-                            </div>
-                        </div>
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <a href="guide-main.html" class="image" style="background-image: url('images/bg/gu-image01.png'); border-radius: 10%; width: 90%; margin-left: 5%;">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="service-item" style="background-color: beige; margin-top: 50px; border-radius: 5%; border:2px solid #ffffff;">
-                        <div class="section-intro">
-                            <div class="product-item wow">
-                                <h3 class="title">二鎮</h3>
-                                <p class="para" style="margin:-20px -72px -80px 0px;">現代建築</p>
-                            </div>
-                        </div>
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <a href="guide-two.html" class="image" style="background-image: url('images/bg/gu-image02.png'); border-radius: 10%; width: 90%; margin-left: 5%;">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="content-container">
-                            <div class="section-intro"></div>
-                        </div>
-
-                    </div>
-                    <div class="service-item" style="background-color: beige; border-radius: 5%; margin-top: 50px; border:2px solid #ffffff;">
-                        <div class="section-intro">
-                            <div class="product-item wow">
-                                <h3 class="title">主鎮-2</h3>
-                                <p class="para" style="margin:-20px -72px -80px 0px;">歐式建築</p>
-                            </div>
-                        </div>
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <a href="guide-three.html" class="image" style="background-image: url('images/bg/gu-image03.png'); border-radius: 10%; width: 90%; margin-left: 5%;">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="service-container flex justify-between">
-                    <div class="service-item" style="background-color: beige; border-radius: 5%; margin-top: 50px; border:2px solid #ffffff;">
-                        <div class="section-intro">
-                            <div class="product-item wow">
-                                <h3 class="title">四鎮</h3>
-                                <p class="para" style="margin:-20px -72px -80px 0px;">日式建築</p>
-                            </div>
-                        </div>
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <a href="guide-four.html" class="image" style="background-image: url('images/bg/gu-image04.png'); border-radius: 10%; width: 90%; margin-left: 5%;">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="service-item" style="background-color: beige; border-radius: 5%; margin-top: 50px; border:2px solid #ffffff;">
-                        <div class="section-intro">
-                            <div class="product-item wow">
-                                <h3 class="title">別鎮</h3>
-                                <p class="para" style="margin:-20px -72px -80px 0px;">綜合</p>
-                            </div>
-                        </div>
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <a href="guide-other.html" class="image" style="background-image: url('images/bg/gu-image05.png'); border-radius: 10%; width: 90%; margin-left: 5%;">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="content-container">
-                            <div class="section-intro"></div>
-                        </div>
-
-                    </div>
-                    <div class="service-item" style="background-color: beige; border-radius: 5%; margin-top: 50px; border:2px solid #ffffff;">
-                        <div class="section-intro">
-                            <div class="product-item wow">
-                                <h3 class="title">野地</h3>
-                                <p class="para" style="margin:-20px -72px -80px 0px;">綜合</p>
-                            </div>
-                        </div>
-                        <div class="product-item wow">
-                            <div class="image-container">
-                                <a href="guide-wild.html" class="image" style="background-image: url('images/bg/gu-image06.png'); border-radius: 10%; width: 90%; margin-left: 5%;">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <div class="container" style="height: 500px; justify-content: center;">
+                <h3 class="title">施工中，請稍候...</h3>
             </div>
         </div>
-
     </section>
 
     <footer class="footer" style="top: 100px">
-        <div class="infor">
-            <p style="color: #ffffff;">勇者村 © The Warriors Corporation All Rights Reserved.</p>
+        <div>
+            <p>勇者村 © The Warriors Corporation All Rights Reserved.</p>
         </div>
     </footer>
 
+    <a href="#" class="toTop">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </a>
+
 </body>
 
-<script src="js/wow.min.js"></script>
-<script src="js/rellax.min.js"></script>
-<script>
-    // wow.js initialize
-    wow = new WOW({
-        offset: 200
-    });
-    wow.init();
-
-    // rellax initialize
-    var rellax = new Rellax('.rellax', {
-        center: true
-    });
-</script>
-<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
-<script>
-    /* paste this in verbatim */
-    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments); };
-
-    /* customize formbutton here*/
-    formbutton("create", {
-        action: "https://formspree.io/f/xzbkewgb",
-        title: "Welcome to contact us",
-        fields: [
-            {
-                type: "email",
-                label: "Email:",
-                name: "email",
-                required: true,
-                placeholder: "your@email.com"
-            },
-            {
-                type: "textarea",
-                label: "Message:",
-                name: "message",
-                placeholder: "What's on your mind?",
-            },
-            { type: "submit" }
-        ],
-        styles: {
-            fontFamily: "Montserrat",
-            title: {
-                background: "gray",
-            },
-            button: {
-                background: "gray",
-            }
-        },
-        initiallyVisible: false
-    });
-</script>
-<script>
+<script> 
+    $.noConflict(); 
+    jQuery(document).ready(function($) { 
+        $(document).ready(function () {
+    $(".fancybox").fancybox();
+})
+    }); 
     $(document).ready(function () {
         $('.showmenu').on('click', function (e) {
             e.preventDefault();
             $('body').toggleClass('menu-show');
-        });
-    });
+        })
+    })
 </script>
 
 </html>
