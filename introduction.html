@@ -688,19 +688,13 @@
 
 </body>
 
-<script> 
-    $.noConflict(); 
-    jQuery(document).ready(function($) { 
-        $(document).ready(function () {
-    $(".fancybox").fancybox();
-})
-    }); 
+<script>
     $(document).ready(function () {
         $('.showmenu').on('click', function (e) {
             e.preventDefault();
             $('body').toggleClass('menu-show');
-        })
-    })
+        });
+    });
 </script>
 
 </html>
