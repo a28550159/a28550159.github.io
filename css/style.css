@@ -264,6 +264,87 @@ span {
     transition: 0.2s;
 }
 
+.point {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.point:hover {
+    transform: translateY(-5px) scale(1.5);
+    transition: 0.5s;
+}
+
+.inter00 {
+    z-index: 500;
+}
+
+.inter01 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter02 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter03 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter04 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter05 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter06 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter07 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter08 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter09 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter10 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter11 {
+    opacity: 0;
+    z-index: 200;
+}
+
+.inter12 {
+    opacity: 0;
+    z-index: 200;
+}
+
 .main01 {
     top: -110px;
 }
@@ -495,6 +576,85 @@ span {
 
 .news .para {
     text-align: left;
+}
+
+.guide01 .container {
+    flex-direction: column;
+}
+
+.guide01 .title {
+    margin: 5% 0;
+}
+
+.guide01 .image-container {
+    width: 100%;
+    padding-top: 57%;
+    cursor: unset;
+}
+
+.guide01 .image {
+    display: unset;
+    border-radius: unset;
+    box-shadow: unset;
+}
+
+.guide01 .image:hover {
+    transform: unset;
+}
+
+.guide01 .black {
+    display: flex;
+    position: absolute;
+    justify-content: start;
+    align-items: flex-end;
+    background-color: #333;
+    top: 10%;
+    left: 2%;
+    width: 52%;
+    height: 30%;
+    box-shadow:3px 3px 9px black;
+    transition: 0.5s;
+}
+
+.guide01 .black:hover {
+    transform: translate(10px,10px);
+    transition: 0.5s;
+}
+
+.guide01 .black .image-container {
+    width: 60%;
+    padding-top: 33%;
+    margin-bottom: -4%;
+    left: 2%;
+    box-shadow:3px 3px 9px black;
+    opacity: 0;
+    animation: ani-fadeIn 1s 0s forwards;
+}
+
+.guide01 .black .image-container {
+    transition: 0.5s;
+}
+
+.guide01 .black .image-container:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.guide01 .black .section-intro {
+    text-align: left;
+    margin-left: 6%;
+}
+
+.guide01 .black .title {
+    text-align: left;
+    margin-top: 10%;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.guide01 .black .para {
+    font-size: 16px;
+    color: #ffffff;
 }
 
 .footer {
