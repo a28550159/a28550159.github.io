@@ -972,7 +972,7 @@ span {
         margin-bottom: 50px;
     }
     .main02 .para {
-        font-size: 14px;
+        font-size: 12px;
     }
     .main04 .jumbotron {
         padding-bottom: 300px;
@@ -1047,5 +1047,8 @@ span {
     }
     .guide01 .black .text03 {
         display: none;
+    }
+    .guide01 .black .title {
+        margin-top: 5px;
     }
 }
