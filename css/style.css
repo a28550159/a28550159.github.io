@@ -967,6 +967,10 @@ span {
     .content-left {
         width: 90%;
     }
+    .point {
+        width: 7%;
+        height: 7%;
+    }
     .main02 {
         margin-top: -80px;
         margin-bottom: 50px;
