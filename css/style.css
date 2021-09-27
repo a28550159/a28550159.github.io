@@ -452,11 +452,15 @@ span {
 }
 
 .join02 .section-intro {
-    width: 40%;
+    width: 90%;
 }
 
 .join02 .container {
     display: block;
+}
+
+.join02 .section-container {
+    justify-content: center;
 }
 
 .join02 .image-container {
@@ -474,7 +478,7 @@ span {
 
 .join02 .btn {
     box-shadow: 3px 3px 9px black;
-
+    top: -30%;
 }
 
 .join02 .btn:hover {
@@ -904,6 +908,7 @@ span {
     }
     .join02 .btn {
         position: absolute;
+        top: auto;
         bottom: 100%;
         left: 50%;
         transform: translate(-50%,-50%);
