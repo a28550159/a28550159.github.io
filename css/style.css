@@ -627,12 +627,6 @@ span {
     width: 52%;
     height: 30%;
     box-shadow:3px 3px 9px black;
-    transition: 0.5s;
-}
-
-.guide01 .black:hover {
-    transform: translate(10px,10px);
-    transition: 0.5s;
 }
 
 .guide01 .black .image-container {
