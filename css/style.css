@@ -486,56 +486,56 @@ span {
     transition: 0.5s;
 }
 
-.interduction01 {
+.introduction01 {
     margin-top: 120px;
 }
 
-.interduction01 .container {
+.introduction01 .container {
     display: block;
 }
 
-.interduction01 .section-container {
+.introduction01 .section-container {
     margin-bottom: 40px;
 }
 
-.interduction01 .section-intro {
+.introduction01 .section-intro {
     background-color: #ffffff;
     height: 270px;
 }
 
-.interduction01 .image-container {
+.introduction01 .image-container {
     margin-bottom: -10px;
     background-color: #FAAD80;
     transition: 0.5s;
 }
 
-.interduction01 .image-container:hover {
+.introduction01 .image-container:hover {
     transform: translateY(-10px);
     transition: 0.5s;
 }
 
-.interduction01 .image {
+.introduction01 .image {
     display: unset;
     border-radius: unset;
     box-shadow: unset;
 }
 
-.interduction01 .image:hover {
+.introduction01 .image:hover {
     transform: unset;
 }
 
-.interduction01 .title {
+.introduction01 .title {
     margin-top: 0px;
     padding-top: 24px;
     margin-bottom: 10px;
 }
 
-.interduction01 .subtitle {
+.introduction01 .subtitle {
     color: #333;
     margin-bottom: 10px;
 }
 
-.interduction01 .para {
+.introduction01 .para {
     padding: 12px;
     text-align: left;
 }
@@ -663,6 +663,111 @@ span {
 .guide01 .black .para {
     font-size: 16px;
     color: #ffffff;
+}
+
+.gu-main01 {
+    margin: 130px 0;
+}
+
+.gu-main01 .container {
+    flex-direction: column;
+}
+
+.gu-main01 .title {
+    font-weight: lighter;
+    font-size: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gu-main01 .title::after {
+    content:'';
+    position:absolute;
+    bottom:-25px;
+    width:100%;
+    right: 0%;
+    height:3px;
+    background-color: #000000;
+}
+
+.gu-main01 .subtitle {
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.gu-main01 .section-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.gu-main02 .hero {
+    margin-bottom: -100px;
+}
+
+.gu-main02 .container {
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.gu-main02 .section-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.gu-main02 .section-item {
+    width: 50%;
+}
+
+.gu-main02 .flexslider {
+    margin: 75px 40px 50px;
+}
+
+.gu-main02 .title {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 56px;
+    text-align: center;
+}
+
+.gu-main02 .para {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 24px;
+    line-height: 32px;
+    word-break: break-all;
+}
+
+.gu-main02 .big {
+    font-size: 30px;
+}
+
+.gu-main02 .jumbotron .hero {
+    background-color:rgba(234, 231, 217, 0.6);
+    padding: 5px 0 100px;
+}
+
+.gu-main02 .jumbotron .title {
+    color: #333333;
+    font-size: 150px;
+}
+
+.gu-main02 .jumbotron .title:after {
+    content:'';
+    position:absolute;
+    bottom:-10px;
+    width:100%;
+    right: 0%;
+    height:3px;
+    background-color: #000000;
+}
+
+.gu-main02 .jumbotron .subtitle {
+    color: #333333;
+    font-weight: normal;
+    font-size: 48px;
+    margin-top: 80px;
 }
 
 .footer {
@@ -914,13 +1019,13 @@ span {
     .main03 .image-container .image:hover {
         transform: unset;
     }
-    .interduction01 .image-container:hover {
+    .introduction01 .image-container:hover {
         transform: unset;
     }
-    .interduction01 .section-intro {
+    .introduction01 .section-intro {
         height: 360px;
     }
-    .interduction01 .tag {
+    .introduction01 .tag {
         top: 30%;
     }
     .join01 .image-container .image:hover {
@@ -1003,22 +1108,22 @@ span {
     .join02 .section-intro {
         width: 350px;
     }
-    .interduction01 .container {
+    .introduction01 .container {
         margin-bottom: -150px;
     }
-    .interduction01 .section-container {
+    .introduction01 .section-container {
         flex-direction: column;
         align-items: center;
         margin-top: -50px;
     }
-    .interduction01 .section-item {
+    .introduction01 .section-item {
         width: 90%;
         margin-bottom: 50px;
     }
-    .interduction01 .section-intro {
+    .introduction01 .section-intro {
         height: 300px;
     }
-    .interduction01 .tag {
+    .introduction01 .tag {
         top: 50%;
     }
     .news .title {
