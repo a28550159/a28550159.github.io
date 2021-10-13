@@ -702,7 +702,7 @@ span {
     width: 100%;
 }
 
-.gu-main02 .hero {
+.gu-main02 {
     margin-bottom: -100px;
 }
 
@@ -1031,6 +1031,18 @@ span {
     .join01 .image-container .image:hover {
         transform: unset;
     }
+    .gu-main02 .section-container {
+        flex-direction: column;
+    }
+    .gu-main02 .section-item {
+        width: 100%;
+    }
+    .gu-main02 .big {
+        font-size: 20px;
+    }
+    #turn {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 1255px){
@@ -1158,5 +1170,11 @@ span {
     }
     .guide01 .black .title {
         margin-top: 15px;
+    }
+    .gu-main02 .jumbotron .title {
+        font-size: 80px;
+    }
+    .gu-main02 .jumbotron .subtitle {
+        font-size: 38px;
     }
 }
